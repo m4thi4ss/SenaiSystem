@@ -2,17 +2,17 @@
 
 Projeto Integrador desenvolvido no âmbito do curso do SENAI, com o objetivo de criar uma aplicação de anotações chamada **Senai Notes**.
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 O **SenaiSystem** é uma aplicação desenvolvida em C#, utilizando o Visual Studio, que permite aos usuários criar, editar e gerenciar anotações de forma eficiente.  
 Este projeto visa aplicar na prática os conhecimentos adquiridos durante o curso, integrando conceitos de programação orientada a objetos, manipulação de arquivos e interfaces gráficas.
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-- 🧠 Linguagem: C#
-- 🧰 IDE: Visual Studio
-- 🗃️ Controle de Versão: Git
-- 🌐 Plataforma: GitHub
+-  Linguagem: C#
+-  IDE: Visual Studio
+-  Controle de Versão: Git
+-  Plataforma: GitHub
 
 ## 📁 Estrutura do Projeto
 
@@ -79,7 +79,7 @@ Modelos usados para exibir informações específicas na interface ou retornos.
 - `ListarNotaViewModel.cs`
 - `ListarUsuarioViewModel.cs`
 
-### ⚙️ Configurações e Arquivos Globais
+###  Configurações e Arquivos Globais
 - `appsettings.json` – Configurações gerais da aplicação
 - `appsettings.Development.json` – Configurações específicas para ambiente de desenvolvimento
 - `Program.cs` – Ponto de entrada da aplicação
