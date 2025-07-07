@@ -14,7 +14,7 @@ Este projeto visa aplicar na prática os conhecimentos adquiridos durante o curs
 -  Controle de Versão: Git
 -  Plataforma: GitHub
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 A seguir, estão os principais diretórios e arquivos do projeto, organizados por função:
 
@@ -92,6 +92,6 @@ Modelos usados para exibir informações específicas na interface ou retornos.
 2. Abra o arquivo SenaiSystem.sln no Visual Studio.
 3. Compile e execute o projeto utilizando as ferramentas do Visual Studio.
 
-## 🤝 Contribuições
+## Contribuições
 
 Este projeto foi desenvolvido por João Mathias e Lucas Baptista como parte de um Projeto Integrador do curso SENAI.
