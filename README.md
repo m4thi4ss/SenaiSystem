@@ -18,7 +18,7 @@ Este projeto visa aplicar na prática os conhecimentos adquiridos durante o curs
 
 A seguir, estão os principais diretórios e arquivos do projeto, organizados por função:
 
-### 📂 Controllers — Camada de Controle da Aplicação
+### Controllers — Camada de Controle da Aplicação
 Responsáveis por receber requisições e retornar respostas, conectando as views aos serviços.
 - `CategoriaController.cs`
 - `LembreteController.cs`
@@ -26,7 +26,7 @@ Responsáveis por receber requisições e retornar respostas, conectando as view
 - `NotaController.cs`
 - `UsuarioController.cs`
 
-### 📂 DTOs (Data Transfer Objects)
+### DTOs (Data Transfer Objects)
 Objetos usados para transferência de dados entre camadas de forma segura.
 - `CadastroEditarCategoriaDto.cs`
 - `CadastroEditarLembreteDto.cs`
@@ -36,7 +36,7 @@ Objetos usados para transferência de dados entre camadas de forma segura.
 - `LoginDto.cs`
 - `TrocarSenhaDto.cs`
 
-### 📂 Interfaces — Contratos dos Repositórios
+### Interfaces — Contratos dos Repositórios
 Definem os métodos que as classes de repositório devem implementar.
 - `ICategoriaRepository.cs`
 - `ILembreteRepository.cs`
@@ -44,7 +44,7 @@ Definem os métodos que as classes de repositório devem implementar.
 - `INotaRepository.cs`
 - `IUsuarioRepository.cs`
 
-### 📂 Models — Entidades do Domínio
+### Models — Entidades do Domínio
 Representam as tabelas e entidades principais do sistema.
 - `AuditoriaGeral.cs`
 - `Categoria.cs`
@@ -53,7 +53,7 @@ Representam as tabelas e entidades principais do sistema.
 - `NotaCategoria.cs`
 - `Usuario.cs`
 
-### 📂 Repositories — Implementações de Acesso a Dados
+### Repositories — Implementações de Acesso a Dados
 Classes que acessam o banco de dados com base nas interfaces.
 - `CategoriaRepository.cs`
 - `LembreteRepository.cs`
@@ -61,16 +61,16 @@ Classes que acessam o banco de dados com base nas interfaces.
 - `NotaRepository.cs`
 - `UsuarioRepository.cs`
 
-### 📂 Services — Serviços de Regras e Utilitários
+### Services — Serviços de Regras e Utilitários
 Contém lógicas como geração de token e criptografia de senha.
 - `PasswordService.cs`
 - `TokenService.cs`
 
-### 📂 Uploads
+### Uploads
 Imagens e arquivos enviados pelo usuário.
 - `tigre(8).jpg`
 
-### 📂 ViewModels — Estruturas de Visualização
+### ViewModels — Estruturas de Visualização
 Modelos usados para exibir informações específicas na interface ou retornos.
 - `CategoriaViewModel.cs`
 - `ListarCategoriaViewModel.cs`
@@ -84,7 +84,7 @@ Modelos usados para exibir informações específicas na interface ou retornos.
 - `appsettings.Development.json` – Configurações específicas para ambiente de desenvolvimento
 - `Program.cs` – Ponto de entrada da aplicação
 
-## 🛠️ Como Executar o Projeto
+## Como Executar o Projeto
 
 1. Clone o repositório:
    ```bash
